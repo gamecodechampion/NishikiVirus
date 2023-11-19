@@ -12,15 +12,15 @@ namespace NishikiVirus
 {
     static class Program
     {
+        [STAThread]
         static void Main()
         {
             
-
             string nishikiCallsYouAPussy =
                 "D:\\Jetbrains Rider\\Projects\\NishikiVirus\\NishikiVirus\\y2mate.com - Ten years in the joint made you a fuckin pussy.wav";
             
             SoundPlayer nishikisMusic =
-                new SoundPlayer("D:\\Jetbrains Rider\\Projects\\NishikiVirus\\NishikiVirus\\ten years in the joint but it's an actual song (instrumental).wav");
+                 new SoundPlayer("D:\\Jetbrains Rider\\Projects\\NishikiVirus\\NishikiVirus\\ten years in the joint but it's an actual song (instrumental).wav");
 
             const string imagePath = @"D:\Downloads\image_2023-03-05_154448952.png";
             
@@ -45,6 +45,7 @@ namespace NishikiVirus
                 SetWallPaper(imagePath);
                 
                 PlayAudio(nishikiCallsYouAPussy);
+                
                 
                 
                for (int i = 1; i <= fileCount; i++)
